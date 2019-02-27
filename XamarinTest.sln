@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.iOS.Puppet", "Contoso.iOS.Puppet\Contoso.iOS.Puppet.csproj", "{7595F47D-11D6-4716-BDE6-264C1AFBFFB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7595F47D-11D6-4716-BDE6-264C1AFBFFB5}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{7595F47D-11D6-4716-BDE6-264C1AFBFFB5}.Debug|iPhone.Build.0 = Debug|iPhone
+		{7595F47D-11D6-4716-BDE6-264C1AFBFFB5}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{7595F47D-11D6-4716-BDE6-264C1AFBFFB5}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{7595F47D-11D6-4716-BDE6-264C1AFBFFB5}.Release|iPhone.ActiveCfg = Release|iPhone
+		{7595F47D-11D6-4716-BDE6-264C1AFBFFB5}.Release|iPhone.Build.0 = Release|iPhone
+		{7595F47D-11D6-4716-BDE6-264C1AFBFFB5}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{7595F47D-11D6-4716-BDE6-264C1AFBFFB5}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {033D47FE-33D8-4FA7-9643-A04E6C1AA845}
+	EndGlobalSection
+EndGlobal

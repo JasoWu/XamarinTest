@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\Analytics.storyboardc\Analytics.nib">
+      <LogicalName>Analytics.storyboardc/Analytics.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\Analytics.storyboardc\Info.plist">
+      <LogicalName>Analytics.storyboardc/Info.plist</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\Analytics.storyboardc\Irm-hz-R8F-view-DT4-Md-kJp.nib">
+      <LogicalName>Analytics.storyboardc/Irm-hz-R8F-view-DT4-Md-kJp.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\Analytics.storyboardc\UITableViewController-Irm-hz-R8F.nib">
+      <LogicalName>Analytics.storyboardc/UITableViewController-Irm-hz-R8F.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\Analytics.storyboardc\hXc-ew-IDH-view-CjB-NF-yYE.nib">
+      <LogicalName>Analytics.storyboardc/hXc-ew-IDH-view-CjB-NF-yYE.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\AppCenter.storyboardc\7Sc-Nv-SjP-view-XAV-Rj-Ul7.nib">
+      <LogicalName>AppCenter.storyboardc/7Sc-Nv-SjP-view-XAV-Rj-Ul7.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\AppCenter.storyboardc\AppCenter.nib">
+      <LogicalName>AppCenter.storyboardc/AppCenter.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\AppCenter.storyboardc\Info.plist">
+      <LogicalName>AppCenter.storyboardc/Info.plist</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\AppCenter.storyboardc\LogLevel.nib">
+      <LogicalName>AppCenter.storyboardc/LogLevel.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\AppCenter.storyboardc\c3a-fG-A8R-view-Y4Q-ZD-D15.nib">
+      <LogicalName>AppCenter.storyboardc/c3a-fG-A8R-view-Y4Q-ZD-D15.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\Crashes.storyboardc\Crashes.nib">
+      <LogicalName>Crashes.storyboardc/Crashes.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\Crashes.storyboardc\Info.plist">
+      <LogicalName>Crashes.storyboardc/Info.plist</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\Crashes.storyboardc\ZG3-fs-bgy-view-S3Z-m0-aGe.nib">
+      <LogicalName>Crashes.storyboardc/ZG3-fs-bgy-view-S3Z-m0-aGe.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\Distribute.storyboardc\Distribute.nib">
+      <LogicalName>Distribute.storyboardc/Distribute.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\Distribute.storyboardc\GeI-Ge-cc9-view-WPv-F7-1vx.nib">
+      <LogicalName>Distribute.storyboardc/GeI-Ge-cc9-view-WPv-F7-1vx.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\Distribute.storyboardc\Info.plist">
+      <LogicalName>Distribute.storyboardc/Info.plist</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\LaunchScreen.storyboardc\01J-lp-oVM-view-Ze5-6b-2t3.nib">
+      <LogicalName>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\LaunchScreen.storyboardc\Info.plist">
+      <LogicalName>LaunchScreen.storyboardc/Info.plist</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\LaunchScreen.storyboardc\UIViewController-01J-lp-oVM.nib">
+      <LogicalName>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\Main.storyboardc\Info.plist">
+      <LogicalName>Main.storyboardc/Info.plist</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\Main.storyboardc\UINavigationController-496.nib">
+      <LogicalName>Main.storyboardc/UINavigationController-496.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+  </ItemGroup>
+</Project>

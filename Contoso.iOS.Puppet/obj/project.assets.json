@@ -1,0 +1,483 @@
+{
+  "version": 3,
+  "targets": {
+    "Xamarin.iOS,Version=v1.0": {
+      "Microsoft.AppCenter/1.13.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Analytics/1.13.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Crashes/1.13.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win10-arm/native/WatsonRegistrationUtility.dll": {
+            "assetType": "native",
+            "rid": "win10-arm"
+          },
+          "runtimes/win10-x64/native/WatsonRegistrationUtility.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x86/native/WatsonRegistrationUtility.dll": {
+            "assetType": "native",
+            "rid": "win10-x86"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Distribute/1.13.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Push/1.13.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.iOS.Bindings.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win": {
+      "Microsoft.AppCenter/1.13.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Analytics/1.13.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Crashes/1.13.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Distribute/1.13.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Push/1.13.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.iOS.Bindings.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Microsoft.AppCenter/1.13.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Analytics/1.13.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Crashes/1.13.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Distribute/1.13.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Push/1.13.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.iOS.Bindings.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Microsoft.AppCenter/1.13.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Analytics/1.13.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Crashes/1.13.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Distribute/1.13.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Push/1.13.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.iOS.Bindings.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AppCenter/1.13.2": {
+      "sha512": "/CCy+QGaeb09a3ukQcMYgmEmqNGHi1MSo4hI8zedtJ/I8mZkO8cLJw8T6sVzRK3dv6CHXII5E/LNlyLxBKgvMw==",
+      "type": "package",
+      "path": "microsoft.appcenter/1.13.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Android.Bindings.dll",
+        "lib/MonoAndroid403/Microsoft.AppCenter.dll",
+        "lib/MonoAndroid403/Microsoft.AppCenter.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.xml",
+        "lib/netstandard1.0/Microsoft.AppCenter.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.xml",
+        "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.xml",
+        "lib/uap10.0/Microsoft.AppCenter.dll",
+        "lib/uap10.0/Microsoft.AppCenter.xml",
+        "microsoft.appcenter.1.13.2.nupkg.sha512",
+        "microsoft.appcenter.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Analytics/1.13.2": {
+      "sha512": "Kw+fRy1aO8sISCnRW9tESLWoKLh8uuPdjGs55lMnR1eQkfyWs7/xD2J6XzeGZtS2RFoF2I5S+9GmB/fFSjUzCA==",
+      "type": "package",
+      "path": "microsoft.appcenter.analytics/1.13.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Analytics.Android.Bindings.dll",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Analytics.dll",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Analytics.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.xml",
+        "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Analytics.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Analytics.xml",
+        "lib/uap10.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/uap10.0/Microsoft.AppCenter.Analytics.xml",
+        "microsoft.appcenter.analytics.1.13.2.nupkg.sha512",
+        "microsoft.appcenter.analytics.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Crashes/1.13.2": {
+      "sha512": "4qq286PwlYzJQ5oAAGYKgJxEPXuyaFHLkpvb8hVkj9Lr5tL6PVaNwD7pctpQ1U6hlkBDZCbIsdW6OGZCm7DL6w==",
+      "type": "package",
+      "path": "microsoft.appcenter.crashes/1.13.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/uap10.0/Microsoft.AppCenter.Crashes.targets",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Crashes.Android.Bindings.dll",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Crashes.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Crashes.dll",
+        "microsoft.appcenter.crashes.1.13.2.nupkg.sha512",
+        "microsoft.appcenter.crashes.nuspec",
+        "ref/uap10.0/Microsoft.AppCenter.Crashes.dll",
+        "runtimes/win10-arm/lib/uap10.0/Microsoft.AppCenter.Crashes.dll",
+        "runtimes/win10-arm/lib/uap10.0/WatsonRegistrationUtility.winmd",
+        "runtimes/win10-arm/native/WatsonRegistrationUtility.dll",
+        "runtimes/win10-x64/lib/uap10.0/Microsoft.AppCenter.Crashes.dll",
+        "runtimes/win10-x64/lib/uap10.0/WatsonRegistrationUtility.winmd",
+        "runtimes/win10-x64/native/WatsonRegistrationUtility.dll",
+        "runtimes/win10-x86/lib/uap10.0/Microsoft.AppCenter.Crashes.dll",
+        "runtimes/win10-x86/lib/uap10.0/WatsonRegistrationUtility.winmd",
+        "runtimes/win10-x86/native/WatsonRegistrationUtility.dll"
+      ]
+    },
+    "Microsoft.AppCenter.Distribute/1.13.2": {
+      "sha512": "6mFl1pjphQbYFoGJv4lLBo96g3gI9ML/TQb8SLQfimmUZdf1eNCoxoUazvxGsQH70yKPlxnF8MCsjJZP4s5hTQ==",
+      "type": "package",
+      "path": "microsoft.appcenter.distribute/1.13.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Distribute.Android.Bindings.dll",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Distribute.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.iOS.Bindings.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.Distribute.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Distribute.dll",
+        "microsoft.appcenter.distribute.1.13.2.nupkg.sha512",
+        "microsoft.appcenter.distribute.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Push/1.13.2": {
+      "sha512": "uBm8lYpRxfqieq/x5fHG4bM8Cd7OPE98ZB0JADMWhU8IIX7qpeZ89uS3c2abFknZ6rpfRK5s4liUrTS4tIOhVQ==",
+      "type": "package",
+      "path": "microsoft.appcenter.push/1.13.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Push.Android.Bindings.dll",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Push.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.iOS.Bindings.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.Push.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Push.dll",
+        "lib/uap10.0/Microsoft.AppCenter.Push.dll",
+        "microsoft.appcenter.push.1.13.2.nupkg.sha512",
+        "microsoft.appcenter.push.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "Xamarin.iOS,Version=v1.0": [
+      "Microsoft.AppCenter >= 1.13.2",
+      "Microsoft.AppCenter.Analytics >= 1.13.2",
+      "Microsoft.AppCenter.Crashes >= 1.13.2",
+      "Microsoft.AppCenter.Distribute >= 1.13.2",
+      "Microsoft.AppCenter.Push >= 1.13.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\v-jasowu\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\Projects\\XamarinTest\\Contoso.iOS.Puppet\\Contoso.iOS.Puppet.csproj",
+      "projectName": "Contoso.iOS.Puppet",
+      "projectPath": "F:\\Projects\\XamarinTest\\Contoso.iOS.Puppet\\Contoso.iOS.Puppet.csproj",
+      "packagesPath": "C:\\Users\\v-jasowu\\.nuget\\packages\\",
+      "outputPath": "F:\\Projects\\XamarinTest\\Contoso.iOS.Puppet\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\v-jasowu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "xamarinios10"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "xamarinios10": {
+        "dependencies": {
+          "Microsoft.AppCenter": {
+            "target": "Package",
+            "version": "[1.13.2, )"
+          },
+          "Microsoft.AppCenter.Analytics": {
+            "target": "Package",
+            "version": "[1.13.2, )"
+          },
+          "Microsoft.AppCenter.Crashes": {
+            "target": "Package",
+            "version": "[1.13.2, )"
+          },
+          "Microsoft.AppCenter.Distribute": {
+            "target": "Package",
+            "version": "[1.13.2, )"
+          },
+          "Microsoft.AppCenter.Push": {
+            "target": "Package",
+            "version": "[1.13.2, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
